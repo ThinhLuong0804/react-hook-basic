@@ -9,6 +9,7 @@ import PostFiltersForm from "./components/PostFiltersForm";
 import Clock from "./components/Clock";
 import BetterClock from "./components/BetterClock";
 import MagicBox from "./components/MagicBox";
+import Counter from "./components/Counter";
 
 function App() {
   const [todoList, setTodoList] = useState([
@@ -104,7 +105,8 @@ function App() {
       <div>
         <BetterClock />
       </div> */}
-      <MagicBox />
+      {/* <MagicBox /> */}
+      <Counter />
     </div>
   );
 }
